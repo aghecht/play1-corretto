@@ -1,6 +1,6 @@
 FROM aghecht/amazon-corretto-8
 
-RUN apt-get update && apt-get install -y sudo ant python unzip && apt-get clean
+RUN apt-get update && apt-get install -y sudo python unzip && apt-get clean
 
 ARG version=1.3.4
 
