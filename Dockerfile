@@ -1,4 +1,4 @@
-FROM aghecht/amazon-corretto-8
+FROM aghecht/corretto-8-ubuntu
 
 RUN apt-get update && apt-get install -y sudo python unzip && apt-get clean
 
